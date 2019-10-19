@@ -1,8 +1,8 @@
 ### Date created
-Include the date you created this project and README file.
+This project was created in October, 2019 in partial fulfilment of the requirements for the completion of the [Programming for Data Science Nanodegree](https://www.udacity.com/course/programming-for-data-science-nanodegree--nd104) on [Udacity.](https://www.udacity.com/) 
 
 ### Project Title
-Replace the Project Title
+Motivate's Bikeshare Data Project
 
 ### Description
 Describe what your project is about and what it does

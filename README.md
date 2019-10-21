@@ -20,5 +20,8 @@ The datasets were contained in three csv files: chicago.csv, new york.csv, and w
 1. Terminal application
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+The codebase was inspired by that provided by Udacity
+
+### Copyright and Licensing Information
+All copyright and licensing rights exclusively belong to @pythondroid
 

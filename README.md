@@ -10,7 +10,7 @@ The project uses Python, numpy and pandas to import US bike share data and answe
 The dataset was provided by [Motivate](https://www.motivateco.com/) and covers three cities in the US - Chicago, New York City and Washington. 
 
 ### Files used
-Include the files used
+The datasets were contained in three csv files: chicago.csv, new york.csv, and washington.csv. 
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.

@@ -12,6 +12,13 @@ The dataset was provided by [Motivate](https://www.motivateco.com/) and covers t
 ### Files used
 The datasets were contained in three csv files: chicago.csv, new york.csv, and washington.csv. 
 
+### Software required
+1. Python 3
+1. Numpy
+1. Pandas
+1. Text editor e.g Sublime Text or Atom
+1. Terminal application
+
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
 

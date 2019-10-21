@@ -5,7 +5,9 @@ This project was created in October, 2019 in partial fulfilment of the requireme
 Motivate's Bikeshare Data Project
 
 ### Description
-Describe what your project is about and what it does
+The project uses Python, numpy and pandas to import US bike share data and answer interesting questions by computing descriptive statistics. It also provides an interactive experience in the terminal by collecting user input to segment the data by city, month, and day. It also shows raw data if requested by the user.
+
+The dataset was provided by [Motivate](https://www.motivateco.com/) and covers three cities in the US - Chicago, New York City and Washington. 
 
 ### Files used
 Include the files used

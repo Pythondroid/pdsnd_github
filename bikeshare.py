@@ -25,25 +25,20 @@ def get_filters():
 
     # get user input for city (chicago, new york city, washington)
 
-    user_input = input("What city would you like to get statistics for?: ")
+    user_input = ""
 
-    if user_input.lower() in ("chicago", "new york city", "washington"):
+    while user_input.lower() not in CITY_DATA:
 
-        city = user_input
+        user_input = input("\nWhat city would you like to get statistics for?:\n")
 
-        print("You have selected ", city.title())
+        if user_input.lower() in CITY_DATA:
 
-    else:
+            city = user_input
 
-        while user_input.lower() not in ("chicago", "new york city", "washington"):
+            print("You have selected ", city.title())
 
+        else:
             print("That is not a correct city. Input 'Chicago', 'New York City'  or 'Washington'")
-
-            user_input = input("What city would you like to get statistics for?: ")
-
-        city = user_input
-
-        print("You have selected ", city.title())
 
     # Get user input for month (all, january, february, march, april, may, june)
 
@@ -123,7 +118,7 @@ def load_data(city, month, day):
 
     df = pd.read_csv(CITY_DATA.get(city))
     df['Start Time'] = pd.to_datetime(df['Start Time'])
-    df['months'] = df['Start Time'].dt.month #strftime("%B")
+    df['months'] = df['Start Time'].dt.month
     df['day_of_week'] = df['Start Time'].dt.weekday_name
     
     if day != 'all':

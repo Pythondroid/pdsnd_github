@@ -243,12 +243,12 @@ def user_stats(df):
     # Display earliest, most recent, and most common year of birth
 
     try:
-        print("The earliest year of birth is: ", df['Birth Year'].min())
+        print("The earliest year of birth is: ", int(df['Birth Year'].min()))
     except KeyError:
         print("Earliest Year of Birth: No birth year data available for this city")
 
     try:
-        print("The most recent year of birth is: ", df['Birth Year'].max())
+        print("The most recent year of birth is: ", int(df['Birth Year'].max()))
     except KeyError:
         print(" Most Recent Year of Birth: No birth year data available for this city")
 
@@ -257,7 +257,7 @@ def user_stats(df):
 
         index_date_of_birth_counts = date_of_birth_counts.index.tolist()
 
-        print('The most common year of birth is ', index_date_of_birth_counts[0])
+        print('The most common year of birth is ', int(index_date_of_birth_counts[0]))
     except KeyError:
         print("Most Common Year of Birth: No birth year data available for this city")
     print("\nThis took %s seconds." % (time.time() - start_time))
